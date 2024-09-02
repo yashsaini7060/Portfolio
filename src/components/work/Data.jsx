@@ -1,3 +1,4 @@
+import Truefeedback from "../../assets/Truefeedback.png"
 import Discord from "../../assets/discord.png"
 import Github_Profile from "../../assets/gitprofile.png"
 import Paytm from "../../assets/paytm.jpg"
@@ -10,6 +11,14 @@ import Box from "../../assets/box.avif"
 import Js from "../../assets/js.avif"
 
 export const  projectsData = [
+  {
+    id: 0,
+    image: Truefeedback,
+    title: "True Feedback",
+    category: "Web",
+    link: "https://truefeedback.in/",
+    github_link: "https://github.com/yashsaini7060/True-Feedback"
+  },
   {
     id: 1,
     image: Discord,
